@@ -111,8 +111,10 @@ float alpha = 0.85;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
+#include "mocha.h"
+
 /* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = {
+/*static const char *colorname[] = {
   "#282c34",
   "#e06c75",
   "#98c379",
@@ -130,7 +132,7 @@ static const char *colorname[] = {
   "#56b6c2",
   "#dcdfe4",
   [255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
+	// more colors can be added after 255 to use with DefaultXX
   "#cccccc",
   "#555555",
   "#282c34",
@@ -138,15 +140,15 @@ static const char *colorname[] = {
 };
 
 
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
+// Default colors (colorname index)
+// foreground, background, cursor, reverse cursor
+
 unsigned int defaultfg = 259;
 unsigned int defaultbg = 258;
 unsigned int defaultcs = 256;
 unsigned int defaultrcs = 257;
 unsigned int background = 258;
+*/
 
 /*
  * Default shape of cursor
