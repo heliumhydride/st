@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Term Curly Extended:italic:width=150:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Iosevka Term Curly Extended:italic:width=150:pixelsize=15:antialias=true:autohint=true";
 static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
